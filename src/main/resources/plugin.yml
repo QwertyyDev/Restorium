@@ -1,0 +1,11 @@
+name: Restorium
+version: 1.0.0
+main: dev.qwerty.restorium.Restorium
+author: Qwertydev
+api-version: '1.20'
+softdepend: [PlaceholderAPI, FastAsyncWorldEdit]
+commands:
+  restorium:
+    description: Restorium commands
+    aliases: [resto, rs]
+    usage: /restorium <reload|wand>

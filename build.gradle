@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+}
+
+group = 'dev.qwerty'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
+    maven { url = 'https://repo.extendedclip.com/content/repositories/placeholderapi/' }
+    maven { url = 'https://maven.enginehub.org/repo/' }
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot-api:1.20.1-R0.1-SNAPSHOT'
+    compileOnly 'me.clip:placeholderapi:2.11.3'
+    compileOnly 'com.fastasyncworldedit:FastAsyncWorldEdit-Core:2.9.2'
+    compileOnly 'com.fastasyncworldedit:FastAsyncWorldEdit-Bukkit:2.9.2'
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
