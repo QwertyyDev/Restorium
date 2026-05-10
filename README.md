@@ -177,11 +177,3 @@ lines:
 **Versiyon:** 1.0  
 **API:** Spigot/Paper 1.8+  
 **Bağımlılıklar:** FastAsyncWorldEdit (zorunlu), PlaceholderAPI (opsiyonel)
-
-## Destek
-
-Sorun veya öneri için GitHub Issues üzerinden iletişime geçebilirsiniz.
-
----
-
-© 2024 Qwertydev. Tüm hakları saklıdır.
